@@ -1,0 +1,38 @@
+.navbar{
+	position: sticky;
+	list-style-type: none;
+	margin: none;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	overflow: hidden;
+	background-color: black;
+}
+
+li{
+	float: left;
+	margin: none;
+}
+a{
+	display: block;
+	padding: 15px;
+	color: white;
+}
+
+fieldset{
+	padding: none;
+}
+footer{
+	background: grey;
+	position:absolute;
+	bottom:0;
+	width: 100%;
+	padding-top:15px;
+	height:50px;
+}
+audio{
+	position: sticky;
+	float: left;
+	margin-left: 0px;
+
+}
