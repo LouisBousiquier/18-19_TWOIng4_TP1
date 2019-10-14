@@ -5,18 +5,21 @@
 	<title>Mon CV</title>
 </head>
 <body >
-
-	<div class="navbar">
+	
+	<nav id="navbar">
 		<ul>
-			<li><a href="cv.html">Mon CV</a></li>
-			<li> <a href="Contact.html">Contact</a></li>
+			<li><img src="moi.jpg" width="50" height="50"></li>
+			<li><a href="cv.html" id="boxnav">Compétences</a></li>
+			<li><a href="cv.html" id="boxnav">Expériences</a></li>
+			<li> <a href="Contact.html" id="boxnav">Contact</a></li>
 		</br>
 		</ul>
+	</nav>
 
-	</div>
+<main>
 	<form>
-		<p>
-			<fieldset> <legend>Pour me contacter</legend>
+		
+			<fieldset id="contact"> <legend>Pour me contacter</legend>
 				<label for="name">Votre nom: </label></br>
 				<input type="text" name="name"/></br>
 				<label for="email">Votre email: </label></br>
@@ -24,15 +27,30 @@
 				<label for="comment">Remarques:</label></br>
 				<textarea name="comment"></textarea></br>
 				<input type="submit" name="send" value="Envoyer"/>
+			</fieldset> 
+
+			<fieldset id="info"><legend>Mes informations</legend>
+				<label for="address">19 rue Ernest Renan</label></br>
+				<label for="address2">92130 Issy-les-Moulineaux</label></br>
+				<label for="tel">06-66-97-10-23</label></br>
+				<label for="mail"><a href="mailto:louis.bousiquier@gmail.com" id="mail">louis.bousiquier@gmail.com</a></label></br>
 			</fieldset>
-		</p>
+		
 	</form>
 
-	<audio controls="" loop="" autoplay="">
-	  <source src="Slipknot - Wait And Bleed.mp3" type="audio/mpeg">
-	</audio>
+	
+		<a href="https://www.linkedin.com/in/louis-bousiquier-978171187/" id="boxcontact">Mon LinkedIn</a>
+	
+
+</main>
+
+
 </body>
+
     <footer>
         <p>© 2019 Bousiquier Louis</p>
+       <audio controls loop autoplay>
+	  		<source src="Slipknot - Wait And Bleed.mp3" type="audio/mpeg">
+	   </audio>
     </footer>
 </html>

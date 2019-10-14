@@ -34,27 +34,16 @@
 	font-weight: bold;
 	background-color: white;
 }
+body{
+	height: 100%;
+}
 main{
 	height: 100%;
-	padding: none;
-	margin: none;
 }
-main > form{
-	padding:none;
-}
-#contact{
-	display: inline-block;
-	margin: none;
-	width: 45%;
+main > header{
+	
+	float: left;
 	height: 100%;
-}
-#info{
-	display: inline-block;
-	margin-left: none;
-	padding-top: none;
-	width: 45%;
-	height: 100%;
-	size: auto;
 }
 
 footer{
@@ -70,17 +59,30 @@ footer{
 	float: right;
 	margin-top: none;
 }
-main > h1{
-	float: right;
-	align-content: center;
+
+main > gauche{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: red;
 }
-main > a{
-	background-color: black;
-	color: white;
-	font-size: 16pt;
-	float: right;
+
+main > droite{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: green;
 }
-body{
-	padding: none;
-	margin: none;
+
+main > corps{
+		float: left;
+	height: 100%;
+}
+header > img{
+	overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:150px;
+    height:150px;
 }
