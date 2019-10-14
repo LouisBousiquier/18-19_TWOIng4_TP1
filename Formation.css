@@ -1,5 +1,7 @@
 #navbar{
-	position: sticky;
+	position: fixed; 
+	top: 0;
+	width: 100%;
 	list-style-type: none;
 	margin: none;
 	padding-top: 0px;
@@ -34,52 +36,31 @@
 	font-weight: bold;
 	background-color: white;
 }
+body{
+	padding: none;
+	margin-top: 9%;
+}
 main{
 	height: 100%;
 	padding: none;
 	margin: none;
 }
-main > form{
-	padding:none;
-}
-#contact{
-	display: inline-block;
-	margin: none;
-	width: 45%;
-	height: 100%;
-}
-#info{
-	display: inline-block;
-	margin-left: none;
-	padding-top: none;
-	width: 45%;
-	height: 100%;
-}
 
+main > h1{
+	text-align: center;
+}
 footer{
 	background: grey;
 	position:absolute;
-	bottom:0;
+
 	width: 100%;
 	padding-top:15px;
+	margin: none;
+	padding: none;
 }
 
  footer > audio{
 	position: sticky;
 	float: right;
 	margin-top: none;
-}
-main > h1{
-	float: right;
-	align-content: center;
-}
-main > a{
-	background-color: black;
-	color: white;
-	font-size: 16pt;
-	float: right;
-}
-body{
-	padding: none;
-	margin: none;
 }

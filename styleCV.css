@@ -36,14 +36,18 @@
 }
 body{
 	height: 100%;
+	padding: none;
+	margin: none;
 }
 main{
 	height: 100%;
+	padding: none;
+	margin: none;
 }
 main > header{
-	
-	float: left;
 	height: 100%;
+	padding: none;
+	margin: none;
 }
 
 footer{
@@ -60,29 +64,17 @@ footer{
 	margin-top: none;
 }
 
-main > gauche{
-	width: 50%;
-	height: 100%;
-	float: left;
-	background-color: red;
-}
-
-main > droite{
-	width: 50%;
-	height: 100%;
-	float: left;
-	background-color: green;
-}
-
-main > corps{
-		float: left;
-	height: 100%;
-}
-header > img{
+main > header Img{
 	overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px;
     width:150px;
     height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > header > h1{
+	text-align: center;
 }
