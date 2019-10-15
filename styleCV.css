@@ -1,5 +1,7 @@
 #navbar{
-	position: sticky;
+	position: fixed; 
+	top: 0;
+	width: 100%;
 	list-style-type: none;
 	margin: none;
 	padding-top: 0px;
@@ -11,7 +13,10 @@
 
 #navbar ul li {
 	float: left;
-	margin: none;
+	margin-right: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%
+
 }
 #navbar ul li img{
 	overflow:hidden;
@@ -19,13 +24,18 @@
     -moz-border-radius:50px;
     border-radius:50px;
     width:50px;
-    height:50px;		
+    height:50px;	
+    top:0;
+
 }
-#boxnav{
+
+#navbar ul li a{
 	display: block;
-	padding: 15px;
 	color: white;
 	font-weight: bold;
+}
+#boxnav{
+	margin-top: 15%;
 }
 #boxcontact{
 	display: block;
@@ -37,7 +47,7 @@
 body{
 	height: 100%;
 	padding: none;
-	margin: none;
+	margin-top: 7%
 }
 main{
 	height: 100%;
@@ -55,7 +65,7 @@ footer{
 	position:absolute;
 	bottom:0;
 	width: 100%;
-	padding-top:15px;
+	margin-top: 5%;
 }
 
  footer > audio{
@@ -64,7 +74,7 @@ footer{
 	margin-top: none;
 }
 
-main > header Img{
+#Img{
 	overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
@@ -74,7 +84,23 @@ main > header Img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+#Img:hover{
+	transform: translateX(200px);
 }
 main > header > h1{
+	text-align: center;
+	transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+main >header > h1:hover{
+	transform: translateX(-200px);
+}
+main >header >h2{
 	text-align: center;
 }
