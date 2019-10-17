@@ -1,6 +1,7 @@
 #navbar{
 	position: fixed; 
 	top: 0;
+	left: 0;
 	width: 100%;
 	list-style-type: none;
 	margin: none;
@@ -44,9 +45,15 @@
 	background-color: white;
 }
 body{
+	left: 0;
 	padding: none;
 	margin-top: 9%;
-	background-color: #2BCCED;
+	background-image: url(formation.jpg);
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 130%;
+	background-attachment: fixed;
 }
 main{
 	height: 100%;
@@ -59,33 +66,44 @@ main > h1{
 }
 
 #scol{
-background-image:url("elec2.jpg");
+background-image:url();
 -webkit-background-size: 100% 100%;
 -moz-background-size: 100% 100%;
 -o-background-size: 100% 100%;
 background-size: 100% 250%;
+background-color: rgba(211,211,211,0.8);
+}
+#Tforma{
+	-webkit-text-stroke: 0.5px;
+	-webkit-text-stroke-color: #FFFFFF;
 }
 
 #langues{
-background-image:url("flag2.jpg");
+background-image:url();
 -webkit-background-size: 100% 100%;
 -moz-background-size: 100% 100%;
 -o-background-size: 100% 100%;
 background-size: 100% 250%;
+background-color: rgba(211,211,211,0.8);
+}
+
+#langues > label > anglais2 {
+	text-indent: 10px;
 }
 
 #extra{
-background-image:url("music.jpg");
+background-image:url();
 -webkit-background-size: 100% 100%;
 -moz-background-size: 100% 100%;
 -o-background-size: 100% 100%;
 background-size: 100% 200%;
+background-color: rgba(211,211,211,0.8);
 }
 
 footer{
 	background: grey;
 	position:absolute;
-
+	left: 0;
 	width: 100%;
 	margin-top: 5%;
 	padding: none;

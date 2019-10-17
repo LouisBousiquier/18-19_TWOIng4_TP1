@@ -1,6 +1,7 @@
 #navbar{
 	position: fixed; 
 	top: 0;
+	left: 0;
 	width: 100%;
 	list-style-type: none;
 	margin: none;
@@ -50,6 +51,12 @@ main > form{
 	margin: none;
 	width: 45%;
 	height: 100%;
+	background-color: white;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 200%;
+	background-color: rgba(211,211,211,0.9);
 }
 #info{
 	display: inline-block;
@@ -58,7 +65,11 @@ main > form{
 	padding-top: none;
 	width: 45%;
 	height: 100%;
-
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 200%;
+	background-color: rgba(211,211,211,0.9);
 }
 
 
@@ -68,9 +79,10 @@ footer{
 	bottom:0;
 	width: 100%;
 	margin-top: 5%;
+	left: 0;
 }
 
- footer > audio{
+footer > audio{
 	position: sticky;
 	float: right;
 	margin-top: none;
@@ -88,5 +100,10 @@ main > a{
 body{
 	padding: none;
 	margin-top: 7%;
-	background-color: #2BCCED;
+	background-image: url(contact.jpg);
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 }
